@@ -1,132 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyFigma</title>
+    <title>ex4-forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="javaScript/validations.js"></script>
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+    </style>
+
 </head>
 
-<body>
-    <header> <a href="ex1/index.html" id="logo"> <span>Yasmin Adler</span></a></header>
-    <section id="rectangle">
-        <img src="images/Rectangle5.png" alt="Rectangle" id=underPic>
-        <img src="images/profile.jpg" alt="profile" id="overPic">
-        <p id="firstSentence">
-            Presenting my new exercises in
-            Web and Cloud Engineering class
-        </p>
-        <p id="secondSentence">
-            Sugar, spice, and everything nice
-        </p>
-    </section>
-    <div class="wrapper">
-        <section id="section1">
-            <h2 id="About"><b>About</b></h2>
-            <p id="AboutP">
-                As a 26-year-old woman, I grew up in Israel, as one of four children. Currently, I'm pursuing my dream
-                of studying software engineering at Shenkar School of Engineering and Design.
-                I'm in my second year of the four-year degree program,
-                and I'm already excited about the knowledge and skills I'm gaining.
-                Before starting my degree, I spent three years in the military as a commander in a combat battalion
-                called
-                Karakal. This experience taught me valuable leadership and teamwork skills that I carry with me to this
-                day.
-                After completing my military service, I worked in security at EL AL company in New York. This job
-                allowed me
-                to understand the importance of security and safety in the tech industry.
-                I believe that my skills and experiences will help me succeed in any
-                future endeavors that I pursue.
-            </p>
-            
-        </section>
-
-        <section id="section2">
-            <h2 class="Exercises"><b>Exercises</b></h2>
-            <section class="firstCard">
-                <h2 class="exe">Exercise 1</h2>
-                <img src="images/buttercup.png" alt="Buttercup">
-                <a href="exercises/ex1/index.html" target="_blank" class = button><b>View</b></a>
-            </section>
-            <section class="secondCard">
-                <h2 class="exe">Exercise 2</h2>
-                <img src="images/bubbles.png" alt="bubbles">
-                <a href="#" target="_blank" class = button><b>View</b></a>
-            </section>
-            <section class="thirdCard">
-                <h2 class="exe">Exercise 3</h2>
-                <img src="images/mojo.png" alt="mojo">
-                <a href="exercises/ex3/index.html" target="_blank" class = button><b>View</b></a>
-            </section>
-            <section class="forthCard">
-                <h2 class="exe">Exercise 4</h2>
-                <img src="images/saraWhite.jpg" alt="sara">
-                <a href="exercises/ex4/index.html" target="_blank" class = button><b>View</b></a>
-            </section>
-            <section class="fifthCard">
-                <h2 class="exe">Exercise 5</h2>
-                <img src="images/Professor.png" alt="Professor">
-                <a href="exercises/ex5/index.html" target="_blank" class = button><b>View</b></a>
-            </section>
-        </section>
-
-
-        <section id="section3">
-            <h2 class="Programming"><b>Programming Languages</b></h2>
-            <ul class="Languages">
-                <li>C</li>
-                <li>C++</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>Assembly</li>
-            </ul>
-        </section>
-
-        <section id="section4">
-            <h2 id="fun_facts">Fun Facts</h2>
-            <section id=secPink>
-                <ol class=secPinkList>
-                        <li>The shortest war in history was between the countries of Zanzibar and Great Britain, which
-                            lasted only 38 minutes on August 27, 1896.</li>
-
-                        <li>A group of flamingos is called a flamboyance.</li>
-
-                        <li> The first-ever recorded computer virus was created in 1986 and was called the "Brain
-                            Virus".
-                        </li>
-
-                        <li> The largest snowflake ever recorded was 15 inches wide and 8 inches thick. It fell in
-                            Montana
-                            in 1887.</li>
-
-                        <li>The world's oldest piece of chewing gum is over 9,000 years old! It was discovered in
-                            Finland,
-                            and scientists believe it was made from birch bark tar.</li>
-                </ol>
-
-
-            </section>
-        </section>
-
-
+<body data-new-gr-c-s-check-loaded="14.1107.0" data-gr-ext-installed="">
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+    <div class="cont">
+        <div class="background">
+            <video autoplay="" muted="" loop="" id="video-bg">
+                <source src="flagVideo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="rectangle">
+            <h2 class="text-center mb-4">Join IGY!</h2>
+        </div><br>
+        <div class="form-container">
+            <form action="http://se.shenkar.ac.il/teach/web1/get_form3.php" method="get" autocomplete="on"
+                class="needs-validation">
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">Enter your full name:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control border-success" type="text" name="fullName"
+                            placeholder="First and last name" pattern="^[A-Za-z]+(?:\s[A-Za-z]+)+"
+                            title="Username should only contain lowercase and uppercase letters. e.g. John Aharon"
+                            value="" required="">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">Password:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control border-success" type="password" placeholder="Password" name="pass"
+                            value="" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&amp;*_=+-]).{8,16}"
+                            title="Password should only contain lowercase and uppercase letters, a sign and number between [0,9]. e.g. johnAharon_12"
+                            required="">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">Email:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control border-success" type="email" placeholder="Email Address" name="mail"
+                            value="" required="">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">Website:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control border-success" placeholder="URL" type="url" name="website" value="">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">Phone:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control border-success" type="tel" name="phone" value=""
+                            pattern="(?=.*[0-9]).{8,10}" title="phone should only contain digits between [0,9]">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">Coffee:</label>
+                    <div class="col-sm-10">
+                        <input class="form-control border-success" type="number" name="coffee" value="">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">Temper:</label>
+                    <div class="col-sm-10">
+                        <input type="range" class="form-range border-success" name="temper">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">How do you think you can contribute to IGY:</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control border-success" name="Address" rows="10" cols="30"></textarea>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-check-label col-sm-2">Interests:</label>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input border-success" name="interests[]"
+                                value="Guitar">
+                            <label class="form-check-label">Guitar</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input border-success" name="interests[]"
+                                value="Skating">
+                            <label class="form-check-label">Skating</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input border-success" name="interests[]"
+                                value="Math">
+                            <label class="form-check-label">Math</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-check-label col-sm-2">Gender:</label>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input border-success" name="gender" value="male">
+                            <label class="form-check-label">Male</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input border-success" name="gender" value="female">
+                            <label class="form-check-label">Female</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input border-success" name="gender"
+                                value="nonOfYourBusiness">
+                            <label class="form-check-label">Non of your business</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label col-sm-2">Age:</label>
+                    <div class="col-sm-10">
+                        <select class="form-select border-success" name="Age" required="">
+                            <option value="">Select Age</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2">
+                        <input type="submit" class="btn btn-primary" value="Submit">
+                    </div>
+                </div>
+            </form>
+            <p id="error-message" style="color: red; display: none;">Invalid input! Please try again.</p>
+        </div>
     </div>
-    <section id="section5">
-        <footer>
-            <img src="images/followUs.png" alt="Follow Us">
-            <nav>
-                <h2 id="FollowUs">Follow Us</h2>
-                <ul class=social>
-                    <li><a href="https://www.facebook.com/yasmin.adler " target=“_blank” class=tag> Facebook</a></li>
-                    <li> <a href="https://www.instagram.com/" target=“_blank” class=tag>Instegarm</a></li>
-                    <li><a href="https://twitter.com/shenkar_m" target=“_blank” class=tag>Twitter</a></li>
-                </ul>
-                <h2 id="MyFigma">&copy; 2023 MyFigma</h2>
+    <script src="javaScript/validations.js"></script>
 
-            </nav>
-        </footer>
-    </section>
 
 </body>
+
 </html>
